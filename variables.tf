@@ -18,7 +18,7 @@ variable "num_cache_nodes" {
 variable "parameter_group_name" {
   type        = string
   description = "Parameter group name"
-  default     = "default.redis3.2"
+  default     = "default.redis7"
 }
 
 variable "engine_version" {
