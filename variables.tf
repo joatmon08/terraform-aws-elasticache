@@ -24,5 +24,5 @@ variable "parameter_group_name" {
 variable "engine_version" {
   type        = string
   description = "Engine version"
-  default     = "3.2.10"
+  default     = "7.0"
 }
